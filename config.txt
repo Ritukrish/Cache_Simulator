@@ -3,8 +3,7 @@ block_size = 64
 associativity = 4
 replacement_policy = LRU
 write_policy = write_back
-write_allocate = yes
+write_allocate = no
 address_bits = 32
-
-hit_time = 2
-miss_time = 20
+hit_time = 2 ns
+miss_time = 20 ns
