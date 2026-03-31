@@ -1,0 +1,10 @@
+W 0x00000000  # Compulsory Miss, then Write (Set 0, Way 0, Dirty=True)
+W 0x00002000  # Compulsory Miss, then Write (Set 0, Way 1, Dirty=True)
+W 0x00004000  # Compulsory Miss, then Write (Set 0, Way 2, Dirty=True)
+W 0x00006000  # Compulsory Miss, then Write (Set 0, Way 3, Dirty=True)
+R 0x00008000  # Conflict Miss,  Dirty Eviction of 0x00000000
+R 0x0000A000  # Conflict Miss,  Dirty Eviction of 0x00002000
+R 0x0000C000  # Conflict Miss,  Dirty Eviction of 0x00004000
+R 0x0000E000  # Conflict Miss,  Dirty Eviction of 0x00006000
+W 0x00000000  # Compulsory Miss (seen before, but currently evicted)
+R 0x00001000  # Compulsory Miss 

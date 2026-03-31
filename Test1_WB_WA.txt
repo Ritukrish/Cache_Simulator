@@ -1,0 +1,25 @@
+Cache Configuration:
+Cache Size: 64 B
+Block Size: 16 B
+Associativity: 4-way
+Replacement: FIFO
+Write Policy: write_back
+Write Allocate: yes
+
+Results:
+Total Accesses: 126
+Reads: 102
+Writes: 24
+
+Hits: 2
+Misses: 124
+Dirty Evictions: 24
+
+Compulsory Misses: 62
+Conflict Misses: 0
+Capacity Misses: 62
+
+Hit Rate: 1.59%
+Miss Rate: 98.41%
+
+AMAT: 21.68 ns

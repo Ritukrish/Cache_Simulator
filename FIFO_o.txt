@@ -8,8 +8,8 @@ Write Allocate: yes
 
 Results:
 Total Accesses: 10
-Reads: 7
-Writes: 3
+Reads: 10
+Writes: 0
 
 Hits: 6
 Misses: 4

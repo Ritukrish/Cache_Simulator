@@ -1,0 +1,10 @@
+R 0x00000000  # Arrives Time1 (Way 0)
+R 0x00002000  # Arrives Time2 (Way 1)
+R 0x00000000  # Hit (Arrival remains Time1)
+R 0x00004000  # Miss (Evicts 0x0 because Time1 < Time2)
+R 0x00000000  # Miss (Conflict Miss)
+R 0x00002000  # Hit (Arrived Time2)
+R 0x00006000  # Miss (Evicts 0x00002000 because Time2 is now oldest)
+R 0x00002000  # Miss
+R 0x00004000  # Hit
+R 0x00006000  # Hit

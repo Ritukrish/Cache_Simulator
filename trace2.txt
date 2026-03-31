@@ -1,0 +1,10 @@
+R 0x00000000  # Compulsory  
+R 0x00002000  # Compulsory (Set 0, Way 1)
+R 0x00004000  # Compulsory (Set 0, Way 2)
+R 0x00006000  # Compulsory (Set 0, Way 3) full
+R 0x00008000  # Conflict Miss (Evicts 0x00000000)
+R 0x00000000  # Conflict Miss (Evicts 0x00002000)
+R 0x00002000  # Conflict Miss (Evicts 0x00004000)
+R 0x00004000  # Conflict Miss (Evicts 0x00006000)
+R 0x00006000  # Conflict Miss (Evicts 0x00008000)
+R 0x00008000  # Conflict Miss (Evicts 0x00000000)

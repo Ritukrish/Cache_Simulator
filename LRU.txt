@@ -1,0 +1,10 @@
+R 0x00000000  # Access time1
+R 0x00002000  # Access time2
+R 0x00000000  # Hit (Access updated to time3)
+R 0x00004000  # Miss (Evicts 0x2000 because time2 < time3)
+R 0x00000000  # Hit (Still in cache!)
+R 0x00002000  # Miss
+R 0x00004000  # Hit
+R 0x00000000  # Hit
+R 0x00002000  # Hit
+R 0x00004000  # Hit

@@ -175,4 +175,4 @@ def simulate(config_file, trace_file, output_file):
         out.write(f"AMAT: {amat:.2f} ns\n")
 
 if __name__ == "__main__":
-    simulate("config.txt", "trace.txt", "output.txt")
+    simulate("config.txt", "LRU.txt", "LRU_o.txt")

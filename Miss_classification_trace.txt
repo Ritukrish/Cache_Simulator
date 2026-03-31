@@ -1,0 +1,10 @@
+R 0x00000000  # Compulsory Miss
+R 0x00000040  # Compulsory Miss
+R 0x00002000  # Compulsory Miss
+R 0x00004000  # Compulsory Miss
+R 0x00006000  # Compulsory Miss
+R 0x00008000  # Compulsory Miss
+R 0x00000000  # Conflict Miss
+R 0x00010000  # Compulsory Miss
+W 0x00002000  # Hit
+R 0x00008000  # Hit
